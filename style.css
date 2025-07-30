@@ -277,10 +277,12 @@ body {
     flex-wrap: wrap;
     margin: 60px auto;
 }
-.side_1 span{
+
+.side_1 span {
     color: #4CAF4F;
 }
-.side_1 h1{
+
+.side_1 h1 {
     font-size: 25px;
 }
 
@@ -353,20 +355,10 @@ body {
 /* footer starts here */
 
 .footer {
-    height: 438.53px;
+    height: 500px;
     width: 100%;
-    position: absolute;
-    top: 1523px;
-    left: 1px;
-    display: flex;
-
-}
-
-.footer1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    background-color: #F5F7FA;
+    text-align: center;
 }
 
 .demo_btn {
@@ -375,7 +367,7 @@ body {
     height: 40px;
     width: 100px;
     font-size: 0.9rem;
-    margin-top: 30px;
+    margin: 20px 60px;
     align-items: center;
     border: none;
     border-radius: 2px;
@@ -391,10 +383,54 @@ body {
 .achievements {
     margin: 0px auto;
 }
-.footer1 h1{
+
+.footer1 h1 {
     font-size: 20px;
     line-height: 1em;
     margin: 0 auto;
+}
+
+.footerfinal {
+    background-color: #263238;
+    height: 330px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: center;
+    padding: 40px 40px;
+
+}
+
+.f1 {
+    color: #fff;
+    width: 400px;
+}
+
+.left-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.f2-3 {
+    width: 200px;
+}
+
+.f2-3 li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 2em;
+    color: #F5F7FA;
+    font-weight: 300;
+    text-align: left;
+}
+
+.f2-3 h5 {
+    color: #F5F7FA;
+    text-align: left;
+    font-size: 20px;
 }
 
 
@@ -568,7 +604,8 @@ body {
         width: 100%;
         margin-bottom: 60px;
     }
-    .unlock h1{
+
+    .unlock h1 {
         font-size: 20px;
     }
 
@@ -582,7 +619,8 @@ body {
         margin: 0px auto;
 
     }
-    .side_1{
+
+    .side_1 {
         margin: 0 auto;
     }
 
@@ -606,7 +644,8 @@ body {
         flex-wrap: wrap;
         width: 100%;
     }
-    .text2{
+
+    .text2 {
         height: 200px;
         margin-bottom: 10px;
     }
@@ -627,5 +666,17 @@ body {
         font-size: 12px;
         margin-top: 10px;
     }
+
+    .footerfinal {
+        background-color: #263238;
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        justify-content: center;
+        padding: 40px 40px;
+    }
+
 
 }
