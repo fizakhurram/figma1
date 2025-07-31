@@ -8,6 +8,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.7s;
 }
 
 body {
@@ -392,7 +393,7 @@ body {
 
 .footerfinal {
     background-color: #263238;
-    height: 330px;
+    height: 390px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -416,6 +417,7 @@ body {
 
 .f2-3 {
     width: 200px;
+    margin: 0 auto;
 }
 
 .f2-3 li {
@@ -432,6 +434,42 @@ body {
     text-align: left;
     font-size: 20px;
 }
+a:hover{
+    cursor: pointer;
+    border-bottom: 4px solid green;
+
+}
+a:active{
+    cursor: pointer;
+    border-bottom: 4px solid green;
+    background-color: #263238;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #717171;
+    transform: scale(110%);
+
+}
+.f4{
+    color: white;
+    font-size: 20px;
+}
+.f4 input{
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
 
 
 /* responsive */
@@ -480,6 +518,9 @@ body {
 
     .achievements {
         flex-wrap: nowrap;
+    }
+    .footerfinal{
+        height: 500px;
     }
 }
 
